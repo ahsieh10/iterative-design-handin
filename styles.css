@@ -63,3 +63,14 @@ h2 {
 h3 {
   margin-bottom: auto;
 }
+
+.sketch{
+  width: 50%;
+  padding: 2%;
+}
+
+.prep{
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
