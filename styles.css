@@ -101,6 +101,11 @@ img {
   margin-right: auto;
 }
 
+iframe {
+  object-fit: contain;
+  max-width: 100%;
+}
+
 .pdf {
   height: 500px;
 }
