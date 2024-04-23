@@ -25,6 +25,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: #f5f5f4;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -40,6 +42,7 @@ li {
   display: flex;
   padding: 0rem 15%;
   max-width: 1000px;
+  max-width: 90%;
   flex-direction: column;
 }
 
@@ -64,13 +67,28 @@ h3 {
   margin-bottom: auto;
 }
 
-.sketch{
+.sketch {
   width: 50%;
   padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.prep{
+.prep {
   width: 50%;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+html {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img {
+  object-fit: contain;
 }
