@@ -120,3 +120,19 @@ iframe {
   height: 400px;
   overflow-y: scroll;
 }
+
+@media (max-width: 650px) {
+  .sketch {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .overflow {
+    width: 100%;
+  }
+
+  .prep {
+    width: 100%;
+  }
+}
